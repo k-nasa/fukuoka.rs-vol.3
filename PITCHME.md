@@ -36,3 +36,31 @@ Rust で！
 - speculate
 
 ---
+
+#### rspec
+
+名前からして完璧!!と思ったけど
+
+記法がみびょい
+
+全部クロージャを渡す形
+
+![rspec](./assets/rspec.png)
+
+---
+
+#### speculate
+
+いい感じだった。けど
+
+![speculate](./assets/speculate.png)
+
+ビルドできない(かった)
+
+---
+
+#### では作るぞ！
+
+というか作った
+
+![ruspec](./assets/ruspec.png)
