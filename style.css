@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #fef6e3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    'Noto Sans Japanese', 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN,
+    Arial, Meiryo, sans-serif;
+  text-transform: none;
+}
