@@ -6,9 +6,9 @@ fukuoka.rs-vol.3
 
 ## About me
 
-name: nasa (近藤アサン)
+![アイコン](./assets/logo.png)
 
-所属: 福岡工業大学 ３年
+name: nasa
 
 Twitter: @nasa_desu
 
