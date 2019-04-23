@@ -64,3 +64,80 @@ Rust で！
 というか作った
 
 ![ruspec](./assets/ruspec.png)
+
+---
+
+#### procedural_macros
+
+- 手続き型マクロ
+- 構文拡張
+- コンパイラプラグイン
+
+- 構文の抽象化における究極の柔軟性を可能に
+- 斬新な方法で Rust を効率的に使用するための可能性を提供
+
+https://github.com/rust-lang/rfcs/blob/master/text/1566-proc-macros.md
+
+---
+
+#### こんなやつ
+
+```Cargo.toml
+[lib]
+proc_macro = true
+```
+
+```rust
+#[proc_macro]
+pub fn ruspec(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
+}
+```
+
+---
+
+#### ちょっとだけ proc_macro の歴史を
+
+- 昔の proc_macro は不安定
+- AST ベースのため Rust を変更すると proc_macro が動かなくなる
+- コンパイラの内部構造に依存
+- proc_macro を保証できない or Rust を変更させられない
+
+proc_macro2 から Token ベースになった
+
+---
+
+#### proc_macro2
+
+function macro
+
+```rust
+#[proc_macro]
+pub fn hoge(TokenStream) -> TokenStream;
+
+hoge!
+```
+
+---
+
+#### proc_macro2
+
+attribute macro
+
+```rust
+#[proc_macro_attribute]
+pub fn hoge(Option<TokenStream>, TokenStream) -> TokenStream;
+
+#[hoge(a, b, c)]
+```
+
+#### proc_macro2
+
+custom derive macro
+
+```rust
+#[proc_macro_derive]
+pub fn hoge_derive(TokenStream) -> TokenStream;
+
+#[derive(Hoge)]
+struct Foo;
+```
