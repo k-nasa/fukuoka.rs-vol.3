@@ -155,3 +155,12 @@ speculate は古い ver を使っていた
 
 nasa 「ほう。これは PR を出すしかありませんね。」
 
+---
+
+#### 月日は流れ昨日(2019/4/23)
+
+![marged](./assets/marged.png)
+
+---
+
+![yarareta](./assets/yarareta.jpeg)
