@@ -84,7 +84,7 @@ https://github.com/rust-lang/rfcs/blob/master/text/1566-proc-macros.md
 
 #### こんなやつ
 
-```Cargo.toml
+```toml
 [lib]
 proc_macro = true
 ```
@@ -116,7 +116,7 @@ function macro
 #[proc_macro]
 pub fn hoge(TokenStream) -> TokenStream;
 
-hoge!
+hoge!("hogehoge")
 ```
 
 ---
@@ -130,6 +130,7 @@ attribute macro
 pub fn hoge(Option<TokenStream>, TokenStream) -> TokenStream;
 
 #[hoge(a, b, c)]
+fn hogehoge() {}
 ```
 
 #### proc_macro2
