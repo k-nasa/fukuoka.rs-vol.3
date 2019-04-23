@@ -6,8 +6,6 @@ fukuoka.rs-vol.3
 
 ## About me
 
-![アイコン](./assets/logo.png)
-
 name: nasa
 
 hoby: Elm で学習支援アプリケーションを書いてる
