@@ -2,7 +2,7 @@ background: bg/navy.png
 transition: slide
 theme: black
 slide-number: true
-theme-override: assets/PITCHME.css
+theme-override: ./style.css
 logo: assets/logo.png
 footnote: "© 2019 nasa"
 highlight : monokai
