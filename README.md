@@ -1,4 +1,3 @@
-GitPitch で作る LT 資料のテンプレート
-
-https://gitpitch.com/k-nasa/LT-template
 # fukuoka.rs-vol.3
+
+https://gitpitch.com/k-nasa/fukuoka.rs-vol.3
