@@ -97,17 +97,6 @@ pub fn ruspec(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
 
 ---
 
-#### ちょっとだけ proc_macro の歴史を
-
-- 昔の proc_macro は不安定
-- AST ベースのため Rust を変更すると proc_macro が動かなくなる
-- コンパイラの内部構造に依存
-- proc_macro を保証できない or Rust を変更させられない
-
-proc_macro2 から Token ベースになった
-
----
-
 #### proc_macro2
 
 function macro
@@ -144,3 +133,16 @@ pub fn hoge_derive(TokenStream) -> TokenStream;
 #[derive(Hoge)]
 struct Foo;
 ```
+
+---
+
+#### ちょっとだけ proc_macro の歴史を
+
+- 昔の proc_macro は不安定
+- AST ベースのため Rust を変更すると proc_macro が動かなくなる
+- コンパイラの内部構造に依存
+- proc_macro を保証できない or Rust を変更させられない
+
+proc_macro2 から Token ベースになった
+
+---
