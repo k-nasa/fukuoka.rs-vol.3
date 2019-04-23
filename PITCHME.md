@@ -10,6 +10,8 @@ fukuoka.rs-vol.3
 
 name: nasa
 
+hoby: Elm で学習支援アプリケーションを書いてる
+
 Twitter: @nasa_desu
 
 GitHub: k-nasa
