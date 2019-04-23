@@ -97,6 +97,22 @@ pub fn ruspec(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
 
 ---
 
+#### output code
+
+```rust
+// # Expand
+mod test_module_name {
+    #[test]
+    fn test_name() {
+        let context = 5;
+
+        assert_eq(context + 5, 10)
+    }
+}
+```
+
+---
+
 #### proc_macro2
 
 function macro
