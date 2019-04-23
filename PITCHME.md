@@ -164,3 +164,7 @@ nasa 「ほう。これは PR を出すしかありませんね。」
 ---
 
 ![yarareta](./assets/yarareta.jpeg)
+
+---
+
+おしまい
